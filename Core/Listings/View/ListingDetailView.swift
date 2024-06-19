@@ -33,7 +33,7 @@ struct ListingDetailView: View {
                         .padding(32)
                 }
             }
-            VStack(spacing: 8){
+            VStack( alignment: .leading, spacing: 8){
                 
                 Text("\(listing.title)")
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
